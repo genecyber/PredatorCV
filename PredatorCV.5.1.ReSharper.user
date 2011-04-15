@@ -1,0 +1,138 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">True</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="7C2C5325-8235-4A24-9C67-6BD79A4679E2/f:CommonAssemblyInfo.cs/l:..?CommonAssemblyInfo.cs" caret="0" fromTop="0" />
+      <File id="9A1A77FE-F01B-495E-87B7-4B16E4F8C908/f:AdaptiveSkinDetector.cs" caret="903" fromTop="12" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Text.cs" caret="71" fromTop="2" />
+      <File id="9A1A77FE-F01B-495E-87B7-4B16E4F8C908/f:Image.cs" caret="3476" fromTop="15" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Extensions/f:Io.cs" caret="508" fromTop="17" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Eigen.cs" caret="730" fromTop="22" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Extensions/f:Time.cs" caret="213" fromTop="10" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Extensions/d:Converters/f:Canny.cs" caret="271" fromTop="11" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Circle.cs" caret="1003" fromTop="27" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/f:SandBox.cs" caret="1969" fromTop="17" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/f:SandBox.cs" caret="288" fromTop="11" />
+      <File id="9A1A77FE-F01B-495E-87B7-4B16E4F8C908/f:AdaptiveSkinDetector.cs" caret="13" fromTop="0" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Text.cs" caret="144" fromTop="8" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Text.cs" caret="71" fromTop="2" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Eigen.cs" caret="2228" fromTop="30" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Extensions/f:Io.cs" caret="1160" fromTop="26" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Extensions/f:Io.cs" caret="1730" fromTop="40" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Extensions/f:Io.cs" caret="898" fromTop="28" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Eigen.cs" caret="1823" fromTop="27" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Eigen.cs" caret="377" fromTop="0" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Eigen.cs" caret="2015" fromTop="35" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/f:SandBox.cs" caret="509" fromTop="10" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Eigen.cs" caret="1030" fromTop="15" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Eigen.cs" caret="730" fromTop="22" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/f:SandBox.cs" caret="856" fromTop="23" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/f:SandBox.cs" caret="2878" fromTop="26" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Extensions/d:Converters/f:Canny.cs" caret="714" fromTop="20" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/f:SandBox.cs" caret="856" fromTop="20" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/f:SandBox.cs" caret="1101" fromTop="19" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Circle.cs" caret="150" fromTop="7" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Circle.cs" caret="291" fromTop="16" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Extensions/d:Converters/f:Canny.cs" caret="277" fromTop="11" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/f:SandBox.cs" caret="500" fromTop="16" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Circle.cs" caret="162" fromTop="8" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/f:SandBox.cs" caret="3042" fromTop="40" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/f:SandBox.cs" caret="2106" fromTop="22" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Circle.cs" caret="628" fromTop="19" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Circle.cs" caret="827" fromTop="23" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Circle.cs" caret="1003" fromTop="27" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/f:SandBox.cs" caret="1989" fromTop="17" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.9\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Where`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="f" priority="0" />
+      <Item value="true" priority="0" />
+      <Item value="GetFilesFromDirectory`0" priority="0" />
+      <Item value="int" priority="1" />
+      <Item value="result2" priority="0" />
+      <Item value="else" priority="0" />
+      <Item value="_textBox" priority="0" />
+      <Item value="parameters" priority="0" />
+      <Item value="directory" priority="2" />
+      <Item value="cannyDirectory" priority="1" />
+      <Item value="IDetector`0" priority="0" />
+      <Item value="var" priority="1" />
+      <Item value="rawFrame" priority="1" />
+      <Item value="return" priority="1" />
+      <Item value="new" priority="3" />
+      <Item value="DetectorResult" priority="0" />
+      <Item value="RawImage" priority="0" />
+      <Item value="GrayImage" priority="0" />
+      <Item value="grayFrame" priority="1" />
+      <Item value="ProcessedImage" priority="0" />
+      <Item value="processedFrame" priority="0" />
+      <Item value="editedImage" priority="5" />
+      <Item value="circleDetector" priority="0" />
+      <Item value="FindCircle`0" priority="1" />
+      <Item value="IImage`0" priority="2" />
+      <Item value="Image" priority="0" />
+      <Item value="Bgr`0" priority="0" />
+      <Item value="Circle`0" priority="0" />
+      <Item value="detector" priority="0" />
+      <Item value="image" priority="1" />
+      <Item value="FLIP" priority="0" />
+      <Item value="FLIP`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Contains`0" priority="0" />
+      <Item value="GetFilesFromDirectory`0" priority="0" />
+      <Item value="CleanImageFileNames`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="ToList`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Emgu.CV.Image`2">
+      <Item value="Indexer" priority="0" />
+      <Item value="Copy`0" priority="0" />
+      <Item value="ToGray`0" priority="1" />
+      <Item value="_Flip`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:_ExperimentCV.Detectors.DetectorResult">
+      <Item value="Label" priority="0" />
+      <Item value="ProcessedImage" priority="2" />
+      <Item value="GrayImage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="TabIndex" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:_ExperimentCV.Detectors.Circle">
+      <Item value="Process`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Emgu.CV.IImage">
+      <Item value="Bitmap" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Emgu.CV.CvEnum.FLIP">
+      <Item value="HORIZONTAL" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Color">
+      <Item value="DarkRed" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,64 @@
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\bin\Emgu.CV.License.txt
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\bin\Emgu.CV.UI.dll
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\bin\Emgu.CV.UI.pdb
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\bin\zh-CN\Emgu.CV.UI.resources.dll
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\ResolveAssemblyReference.cache
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.HistogramBox.resources
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.HistogramViewer.resources
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.ImageBox.resources
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.ImageProperty.resources
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.ImageViewer.resources
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.MatrixBox.resources
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.MatrixViewer.resources
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.OperationsView.resources
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.PanAndZoomPictureBox.resources
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.ParameterInputDialog.resources
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.Properties.StringTable.resources
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.ImagePropertyDialog.resources
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.HistogramViewer.zh-CN.resources
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.ImageProperty.zh-CN.resources
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.ImageViewer.zh-CN.resources
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.MatrixBox.zh-CN.resources
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.MatrixViewer.zh-CN.resources
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.ParameterInputDialog.zh-CN.resources
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.Properties.StringTable.zh-CN.resources
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.ImagePropertyDialog.zh-CN.resources
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\ResGen.read.1.tlog
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\ResGen.write.1.tlog
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\zh-CN\Emgu.CV.UI.resources.dll
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.dll
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.pdb
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\Decl\Emgu.CV.UI.dll
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.UI\obj\Debug\Decl\Emgu.CV.UI.pdb
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.HistogramBox.resources
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.HistogramViewer.resources
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.ImageBox.resources
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.ImageProperty.resources
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.ImageViewer.resources
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.MatrixBox.resources
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.MatrixViewer.resources
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.OperationsView.resources
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.PanAndZoomPictureBox.resources
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.ParameterInputDialog.resources
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.Properties.StringTable.resources
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.ImagePropertyDialog.resources
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.HistogramViewer.zh-CN.resources
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.ImageProperty.zh-CN.resources
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.ImageViewer.zh-CN.resources
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.MatrixBox.zh-CN.resources
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.MatrixViewer.zh-CN.resources
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.ParameterInputDialog.zh-CN.resources
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.Properties.StringTable.zh-CN.resources
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.ImagePropertyDialog.zh-CN.resources
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\ResGen.read.1.tlog
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\ResGen.write.1.tlog
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.dll
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Emgu.CV.UI.pdb
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\bin\Emgu.CV.License.txt
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\bin\Emgu.CV.UI.dll
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\bin\Emgu.CV.UI.pdb
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\bin\zh-CN\Emgu.CV.UI.resources.dll
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\zh-CN\Emgu.CV.UI.resources.dll
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Decl\Emgu.CV.UI.dll
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Decl\Emgu.CV.UI.pdb

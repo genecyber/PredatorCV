@@ -1,0 +1,8 @@
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\bin\Emgu.CV.License.txt
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\bin\Emgu.CV.GPU.dll
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\bin\Emgu.CV.GPU.pdb
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.GPU\obj\Debug\ResolveAssemblyReference.cache
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.GPU\obj\Debug\Emgu.CV.GPU.dll
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.GPU\obj\Debug\Emgu.CV.GPU.pdb
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.GPU\obj\Debug\Decl\Emgu.CV.GPU.dll
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV.GPU\obj\Debug\Decl\Emgu.CV.GPU.pdb

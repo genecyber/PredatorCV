@@ -1,0 +1,22 @@
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\bin\Emgu.CV.License.txt
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\bin\Emgu.CV.dll
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\bin\Emgu.CV.pdb
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV\obj\Debug\ResolveAssemblyReference.cache
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV\obj\Debug\Emgu.CV.Properties.StringTable.resources
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV\obj\Debug\ResGen.read.1.tlog
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV\obj\Debug\ResGen.write.1.tlog
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV\obj\Debug\Emgu.CV.dll
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV\obj\Debug\Emgu.CV.pdb
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV\obj\Debug\Decl\Emgu.CV.dll
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.CV\obj\Debug\Decl\Emgu.CV.pdb
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV\obj\Debug\Emgu.CV.Properties.StringTable.resources
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV\obj\Debug\ResGen.read.1.tlog
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV\obj\Debug\ResGen.write.1.tlog
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV\obj\Debug\Emgu.CV.dll
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV\obj\Debug\Emgu.CV.pdb
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\bin\Emgu.CV.License.txt
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\bin\Emgu.CV.dll
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\bin\Emgu.CV.pdb
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV\obj\Debug\Decl\Emgu.CV.dll
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV\obj\Debug\Decl\Emgu.CV.pdb

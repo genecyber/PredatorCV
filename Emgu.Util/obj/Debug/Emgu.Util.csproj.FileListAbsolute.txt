@@ -1,0 +1,14 @@
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\bin\Emgu.Util.dll
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\bin\Emgu.Util.pdb
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.Util\obj\Debug\ResolveAssemblyReference.cache
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.Util\obj\Debug\Emgu.Util.dll
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.Util\obj\Debug\Emgu.Util.pdb
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.Util\obj\Debug\Decl\Emgu.Util.dll
+C:\Emgu\emgucv-windows-x86 2.2.1.1150\Emgu.Util\obj\Debug\Decl\Emgu.Util.pdb
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.Util\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.Util\obj\Debug\Emgu.Util.dll
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.Util\obj\Debug\Emgu.Util.pdb
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\bin\Emgu.Util.dll
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\bin\Emgu.Util.pdb
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.Util\obj\Debug\Decl\Emgu.Util.dll
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.Util\obj\Debug\Decl\Emgu.Util.pdb
