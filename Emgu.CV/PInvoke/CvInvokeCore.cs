@@ -135,7 +135,7 @@ namespace Emgu.CV
       /// <param name="line">The line number in the souce where error is encountered</param>
       /// <param name="userData">Arbitrary pointer that is transparetly passed to the error handler.</param>
       /// <returns></returns>
-      [UnmanagedFunctionPointer(CvInvoke.CvCallingConvention)]
+      [UnmanagedFunctionPointer(CvCallingConvention)]
       public delegate int CvErrorCallback(
          int status, String funcName, String errMsg, String fileName, int line, IntPtr userData);
 
@@ -146,7 +146,7 @@ namespace Emgu.CV
       /// <param name="userdata">Arbitrary pointer that is transparetly passed to the error handler.</param>
       /// <param name="prevUserdata">Pointer to the previously assigned user data pointer.</param>
       /// <returns></returns>
-      [DllImport(OPENCV_CORE_LIBRARY, CallingConvention = CvInvoke.CvCallingConvention)]
+      [DllImport(OPENCV_CORE_LIBRARY, CallingConvention = CvCallingConvention)]
       public static extern IntPtr cvRedirectError(
           CvErrorCallback errorHandler,
           IntPtr userdata,

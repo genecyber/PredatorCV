@@ -1,9 +1,8 @@
-﻿using System;
-using System.Drawing;
+﻿using System.Drawing;
 using Emgu.CV;
 using Emgu.CV.Structure;
 
-namespace _ExperimentCV.Detectors
+namespace PredatorCV.Detectors
 {
     public class Circle : IDetector
     {

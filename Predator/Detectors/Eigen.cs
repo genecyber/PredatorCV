@@ -6,7 +6,7 @@ using System.Windows.Forms;
 using Emgu.CV;
 using Emgu.CV.Structure;
 
-namespace _ExperimentCV.Detectors
+namespace PredatorCV.Detectors
 {
     public class Eigen : IDetector
     {

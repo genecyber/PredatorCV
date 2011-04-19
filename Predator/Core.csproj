@@ -34,15 +34,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="FluentAssertions">
-      <HintPath>..\..\..\..\..\Users\Genecyber\Documents\Visual Studio 2010\Projects\Ricoh\SJDF\lib\FluentAssertions.dll</HintPath>
-    </Reference>
     <Reference Include="nunit.framework, Version=2.5.9.10320, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\Users\Genecyber\Documents\Visual Studio 2010\Projects\Ricoh\SJDF\lib\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data" />
@@ -56,9 +54,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collection\ResultBase.cs" />
+    <Compile Include="Collection\ResultOf.cs" />
     <Compile Include="Detectors\Contour.cs" />
+    <Compile Include="Extensions\Cast.cs" />
     <Compile Include="Extensions\Converters\Canny.cs" />
     <Compile Include="Detectors\IDetector.cs" />
+    <Compile Include="Extensions\Converters\GrayScale.cs" />
     <Compile Include="Extensions\Time.cs" />
     <Compile Include="SandBox.cs" />
     <Compile Include="Detectors\Circle.cs" />
@@ -75,6 +77,10 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Extensions\Io.cs" />
+    <Compile Include="Sources\Camera.cs" />
+    <Compile Include="Sources\Desktop.cs" />
+    <Compile Include="Sources\IVideo.cs" />
+    <Compile Include="Sources\VideoFactory.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

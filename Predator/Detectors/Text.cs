@@ -6,7 +6,7 @@ using Emgu.CV;
 using Emgu.CV.Structure;
 using tessnet2;
 
-namespace _ExperimentCV.Detectors
+namespace PredatorCV.Detectors
 {
     public static class Text
     {

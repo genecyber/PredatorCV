@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
 
-namespace _ExperimentCV.Extensions
+
+namespace PredatorCV.Extensions
 {
     public static class Time
     {

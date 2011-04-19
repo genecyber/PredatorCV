@@ -2,10 +2,9 @@
 using System.IO;
 using System.Linq;
 using Emgu.CV;
-using Emgu.CV.Structure;
 
 
-namespace _ExperimentCV.Extensions
+namespace PredatorCV.Extensions
 {
     public static class Io
     {

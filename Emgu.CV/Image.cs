@@ -20,10 +20,10 @@ namespace Emgu.CV
    /// <typeparam name="TColor">Color type of this image (either Gray, Bgr, Bgra, Hsv, Hls, Lab, Luv, Xyz, Ycc, Rgb or Rbga)</typeparam>
    /// <typeparam name="TDepth">Depth of this image (either Byte, SByte, Single, double, UInt16, Int16 or Int32)</typeparam>
    [Serializable]
-   public class Image<TColor, TDepth>
-      : CvArray<TDepth>, IImage, IEquatable<Image<TColor, TDepth>>
-      where TColor : struct, IColor
-      where TDepth : new()
+    public class Image<TColor, TDepth>
+       : CvArray<TDepth>, IImage, IEquatable<Image<TColor, TDepth>>
+        where TColor : struct, IColor
+        where TDepth : new()
    {
       private TDepth[, ,] _array;
 

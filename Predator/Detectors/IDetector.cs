@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Text;
+﻿using System.Drawing;
 using Emgu.CV;
 using Emgu.CV.Structure;
 
-namespace _ExperimentCV.Detectors
+namespace PredatorCV.Detectors
 {
     /// <summary>
     /// Interface for detectors.

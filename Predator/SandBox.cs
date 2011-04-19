@@ -1,32 +1,36 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using _ExperimentCV.Extensions;
-using _ExperimentCV.Converters;
-using _ExperimentCV.Detectors;
 using Emgu.CV;
-using Emgu.CV.CvEnum;
 using Emgu.CV.Structure;
 using Emgu.CV.UI;
+using PredatorCV.Converters;
+using PredatorCV.Detectors;
+using PredatorCV.Extensions;
+using PredatorCV.Extensions.Converters;
+using PredatorCV.Sources;
 
-
-namespace _ExperimentCV
+namespace PredatorCV
 {
     public class Sandbox
     {
-        private readonly Capture _capture;
+        private readonly IVideo _capture;
+        private readonly IVideo _desktopCapture;
         private readonly ImageBox _imageBox;
         private static TextBox _textBox;
         private static List<Eigen> _eigenDetectors;
+        private static PictureBox _desktop;
         const string cannyDirectory = "training\\canny";
         const string directory = "training";
         private static List<TrackBar> _tracks;
+        
 
-        public Sandbox(ImageBox imageBox, TextBox textBox, List<TrackBar> tracks)
+        public Sandbox(ImageBox imageBox, TextBox textBox, List<TrackBar> tracks, PictureBox desktop)
         {
             _imageBox = imageBox;
             _textBox = textBox;
             _tracks = tracks;
+            _desktop = desktop;
             cannyDirectory.CleanImageFileNames();
             
             directory.CleanImageFileNames();
@@ -35,32 +39,26 @@ namespace _ExperimentCV
                               new Eigen(cannyDirectory,18),
                               new Eigen(directory,5)
                           };
-
-            if (_capture == null)
-            {
-                try
-                {
-                    _capture = new Capture();
-                    Application.Idle += ProcessFrame;
-
-                }
-                catch (NullReferenceException excpt)
-                {   
-                    MessageBox.Show(excpt.Message);
-                }
-            }
+            _capture = VideoFactory.GetCaptureDevice(VideoFactory.VideoSource.Camera, ProcessCameraFrame).Value;
+            _desktopCapture = VideoFactory.GetCaptureDevice(VideoFactory.VideoSource.Desktop, ProcessDesktopFrame).Value;
         }
-        private void ProcessFrame(object sender, EventArgs e)
+        private void ProcessCameraFrame(object sender, EventArgs e)
         {
             using (Image<Bgr, Byte> image = _capture.QueryFrame())
             {
                 IImage editedImage = image.Copy();
-                editedImage = FindEigens(image);
-                ((Image<Bgr, byte>) editedImage)._Flip(FLIP.HORIZONTAL);
-                //editedImage = FindCircles(((Image<Bgr, byte>)editedImage));
                 _imageBox.Image = editedImage;
             }
         }
+        private void ProcessDesktopFrame(object sender, EventArgs e)
+        {
+            using (var image = _desktopCapture.QueryFrame())
+            {
+                IImage editedImage = image.Copy();
+                _desktop.Image = editedImage.Bitmap;
+            }
+        }
+        
 
         private static IImage FindEigens(Image<Bgr, byte> image)
         {
@@ -78,12 +76,6 @@ namespace _ExperimentCV
             else
                 _textBox.Text = "";
             return image;
-        }
-
-        private static IImage FindCircles(Image<Bgr, byte> image)
-        {
-            var detector = new Circle();
-            return detector.Process(image, image.ToGray()).ProcessedImage;
         }
     }
 }

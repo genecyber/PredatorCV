@@ -5,7 +5,7 @@ using System.Text;
 using Emgu.CV;
 using Emgu.CV.Structure;
 
-namespace _ExperimentCV.Converters
+namespace PredatorCV.Converters
 {
     public static class Canny
     {
@@ -18,9 +18,6 @@ namespace _ExperimentCV.Converters
             return cannyFrame;
         }
 
-        public static Image<Gray,byte> ToGray(this Image<Bgr,byte> image)
-        {
-            return image.Convert<Gray, byte>();
-        }
+        
     }
 }
