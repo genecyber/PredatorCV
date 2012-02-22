@@ -12,4 +12,3 @@ C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\bin\Emgu.Uti
 C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\bin\Emgu.Util.pdb
 C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.Util\obj\Debug\Decl\Emgu.Util.dll
 C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.Util\obj\Debug\Decl\Emgu.Util.pdb
-C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\bin\Emgu.Util.XML

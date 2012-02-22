@@ -62,4 +62,3 @@ C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\bin\zh-CN\Em
 C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\zh-CN\Emgu.CV.UI.resources.dll
 C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Decl\Emgu.CV.UI.dll
 C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV.UI\obj\Debug\Decl\Emgu.CV.UI.pdb
-C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\bin\Emgu.CV.UI.XML

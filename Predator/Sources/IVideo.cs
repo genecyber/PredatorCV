@@ -10,6 +10,6 @@ namespace PredatorCV.Sources
     public interface IVideo
     {
         Image<Bgr, Byte> QueryFrame();
-        Image<Bgr, Byte> QueryFrame(int destX = 0, int destY = 0, int cx = -1, int cy = -1);
+        Image<Bgr, Byte> QueryFrame(int destX, int destY , int cx , int cy );
     }
 }

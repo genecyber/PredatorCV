@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -45,9 +45,7 @@
     <WarningLevel>4</WarningLevel>
     <DocumentationFile>..\bin\Emgu.Util.XML</DocumentationFile>
     <OutputType>Library</OutputType>
-    <AssemblyName>Emgu.Util</AssemblyName>
     <RootNamespace>Emgu.Util</RootNamespace>
-    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <PlatformTarget>x86</PlatformTarget>
@@ -60,10 +58,8 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <OutputType>Library</OutputType>
-    <AssemblyName>Emgu.Util</AssemblyName>
     <DebugSymbols>true</DebugSymbols>
     <RootNamespace>Emgu.Util</RootNamespace>
-    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
     <DocumentationFile>..\bin\Emgu.Util.xml</DocumentationFile>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>

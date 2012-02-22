@@ -78,7 +78,7 @@ namespace PredatorCV.Sources
     public class Desktop : IVideo
     {
         #region Public Class Functions
-        public Bitmap GetDesktopImage(int destX = 0, int destY = 0, int cx = -1, int cy = -1)
+        public Bitmap GetDesktopImage(int destX , int destY, int cx, int cy)
         {
             //In size variable we shall keep the size of the screen.
             SIZE size;
@@ -153,7 +153,7 @@ namespace PredatorCV.Sources
 
         public Image<Bgr, byte> QueryFrame()
         {
-            var result = GetDesktopImage();
+            var result = GetDesktopImage(0, 0, -1, -1);
             return new Image<Bgr, byte>(result);
         }
 

@@ -34,29 +34,31 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="nunit.framework, Version=2.5.9.10320, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Users\Genecyber\Documents\Visual Studio 2010\Projects\Ricoh\SJDF\lib\nunit.framework.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.ServiceModel" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Core">
+    </Reference>
+    <Reference Include="System.ServiceModel">
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+    </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="tessnet2_32, Version=2.0.4.0, Culture=neutral, PublicKeyToken=1550524b5ba07e29, processorArchitecture=x86" />
-    <Reference Include="ZedGraph">
-      <HintPath>..\..\..\lib\3rdParty\ZedGraph.dll</HintPath>
+    <Reference Include="tessnet2_32, Version=2.0.4.0, Culture=neutral, PublicKeyToken=1550524b5ba07e29, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\tessnet2_32.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Collection\ResultBase.cs" />
     <Compile Include="Collection\ResultOf.cs" />
     <Compile Include="Detectors\Contour.cs" />
+    <Compile Include="Detectors\Haar.cs" />
+    <Compile Include="Detectors\Surf.cs" />
     <Compile Include="Extensions\Cast.cs" />
     <Compile Include="Extensions\Converters\Canny.cs" />
     <Compile Include="Detectors\IDetector.cs" />
@@ -106,10 +108,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Emgu.CV.UI\Emgu.CV.UI.csproj">
-      <Project>{90E78BBF-C7FE-4D8E-ADE1-75448E866FDB}</Project>
-      <Name>Emgu.CV.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Emgu.CV\Emgu.CV.csproj">
       <Project>{9A1A77FE-F01B-495E-87B7-4B16E4F8C908}</Project>
       <Name>Emgu.CV</Name>
@@ -117,6 +115,10 @@
     <ProjectReference Include="..\Emgu.Util\Emgu.Util.csproj">
       <Project>{7C2C5325-8235-4A24-9C67-6BD79A4679E2}</Project>
       <Name>Emgu.Util</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Emgu.CV.UI\Emgu.CV.UI.csproj">
+      <Project>{90E78BBF-C7FE-4D8E-ADE1-75448E866FDB}</Project>
+      <Name>Emgu.CV.UI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
