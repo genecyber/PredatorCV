@@ -54,10 +54,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collection\Interest.cs" />
     <Compile Include="Collection\ResultBase.cs" />
     <Compile Include="Collection\ResultOf.cs" />
+    <Compile Include="Detectors\TwoDimensionalTracker.cs" />
     <Compile Include="Detectors\Contour.cs" />
-    <Compile Include="Detectors\Haar.cs" />
+    <Compile Include="Detectors\DetectorFactory.cs" />
+    <Compile Include="Detectors\Passthrough.cs" />
     <Compile Include="Detectors\Surf.cs" />
     <Compile Include="Extensions\Cast.cs" />
     <Compile Include="Extensions\Converters\Canny.cs" />
@@ -81,8 +84,9 @@
     <Compile Include="Extensions\Io.cs" />
     <Compile Include="Sources\Camera.cs" />
     <Compile Include="Sources\Desktop.cs" />
-    <Compile Include="Sources\IVideo.cs" />
-    <Compile Include="Sources\VideoFactory.cs" />
+    <Compile Include="Sources\Image.cs" />
+    <Compile Include="Sources\ISource.cs" />
+    <Compile Include="Sources\SourceFactory.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,6 +124,65 @@
       <Project>{90E78BBF-C7FE-4D8E-ADE1-75448E866FDB}</Project>
       <Name>Emgu.CV.UI</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Detectors\haar\haarcascade_eye.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Detectors\haar\haarcascade_eye_tree_eyeglasses.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Detectors\haar\haarcascade_frontalface_alt.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Detectors\haar\haarcascade_frontalface_alt2.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Detectors\haar\haarcascade_frontalface_alt_tree.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Detectors\haar\haarcascade_frontalface_default.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Detectors\haar\haarcascade_fullbody.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Detectors\haar\haarcascade_lefteye_2splits.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Detectors\haar\haarcascade_lowerbody.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Detectors\haar\haarcascade_mcs_eyepair_big.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Detectors\haar\haarcascade_mcs_eyepair_small.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Detectors\haar\haarcascade_mcs_lefteye.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Detectors\haar\haarcascade_mcs_mouth.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Detectors\haar\haarcascade_mcs_nose.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Detectors\haar\haarcascade_mcs_righteye.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Detectors\haar\haarcascade_mcs_upperbody.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Detectors\haar\haarcascade_profileface.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Detectors\haar\haarcascade_righteye_2splits.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Detectors\haar\haarcascade_upperbody.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

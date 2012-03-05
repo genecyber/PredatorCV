@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Linq;
 using System.Windows.Forms;
 using Emgu.CV;
 using Emgu.CV.Structure;
@@ -8,8 +9,19 @@ using tessnet2;
 
 namespace PredatorCV.Detectors
 {
-    public static class Text
+    public class Text : IDetector
     {
+        private static void InitOcr()
+        {
+            //create OCR engine
+            _ocr = new Tesseract();
+
+            //You can download more language definition data from
+            //http://code.google.com/p/tesseract-ocr/downloads/list
+            //Languages supported includes:
+            //Dutch, Spanish, German, Italian, French and English
+            _ocr.Init(null, "eng", false);
+        }
         private static Tesseract _ocr;
         public static void CreateAndDisplayText(Image<Bgr, byte> image, TextBox textBox)
         {
@@ -64,16 +76,14 @@ namespace PredatorCV.Detectors
             
         }
 
-        private static void InitOcr()
+        public DetectorResult Process(Image<Bgr, byte> rawFrame, Image<Gray, byte> grayFrame)
         {
-            //create OCR engine
-            _ocr = new Tesseract();
-
-            //You can download more language definition data from
-            //http://code.google.com/p/tesseract-ocr/downloads/list
-            //Languages supported includes:
-            //Dutch, Spanish, German, Italian, French and English
-            _ocr.Init(null, "eng", false);
+            InitOcr();
+            List<Word> words;
+            using (Bitmap bmp = grayFrame.Bitmap)
+                words = _ocr.DoOCR(bmp,new Rectangle(0,0,320,240));
+            String label = words.Aggregate("", (current, w) => current + w.ToString());
+            return new DetectorResult() { Label = label, ProcessedImage = rawFrame };
         }
     }
 }

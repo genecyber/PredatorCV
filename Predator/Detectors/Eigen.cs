@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Windows.Forms;
+using Emgu.CV.CvEnum;
 using Emgu.CV;
 using Emgu.CV.Structure;
 
@@ -42,13 +43,15 @@ namespace PredatorCV.Detectors
         public DetectorResult Process(Image<Bgr,byte> rawFrame, Image<Gray,byte> grayFrame)
         {
             int confidence = 0;
-            string label = _recognizer.Recognize(grayFrame);
+            var frame = grayFrame.Resize(320, 240, INTER.CV_INTER_CUBIC, false);
+            string label = _recognizer.Recognize(frame);
             if (label != "")
                 confidence = 100;
             return new DetectorResult
                        {
                            Confidence = confidence,
-                           Label = label
+                           Label = label,
+                           ProcessedImage = frame
                        };
         }
 

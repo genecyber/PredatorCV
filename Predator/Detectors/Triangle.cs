@@ -6,9 +6,9 @@ using Emgu.CV.Structure;
 
 namespace PredatorCV.Detectors
 {
-    public static class Triangle
+    public class Triangle : IDetector
     {
-        public static void DetectAndDrawTriangles(Image<Bgr, byte> image)
+        public static Image<Bgr, byte> DetectAndDrawTriangles(Image<Bgr, byte> image)
         {
             Image<Gray, Byte> gray = image.Convert<Gray, Byte>().PyrDown().PyrUp();
 
@@ -70,6 +70,13 @@ namespace PredatorCV.Detectors
                 image.Draw(triangle, new Bgr(Color.DarkBlue), 2);
             foreach (MCvBox2D box in boxList)
                 image.Draw(box, new Bgr(Color.DarkOrange), 2);
+            return image;
+
+        }
+
+        public DetectorResult Process(Image<Bgr, byte> rawFrame, Image<Gray, byte> grayFrame)
+        {
+            return new DetectorResult() { ProcessedImage = DetectAndDrawTriangles(rawFrame) };
         }
     }
 }

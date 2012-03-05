@@ -3,12 +3,75 @@
     <string />
     <integer />
     <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
       <setting name="SolutionAnalysisEnabled">True</setting>
     </boolean>
   </SettingsComponent>
   <RecentFiles>
-    <RecentFiles />
-    <RecentEdits />
+    <RecentFiles>
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Contour.cs" caret="2728" fromTop="63" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Face.cs" caret="2371" fromTop="25" />
+      <File id="90E78BBF-C7FE-4D8E-ADE1-75448E866FDB/f:PanAndZoomPictureBox.cs" caret="6965" fromTop="16" />
+      <File id="9A1A77FE-F01B-495E-87B7-4B16E4F8C908/d:PInvoke/f:CvEnum.cs" caret="27" fromTop="2" />
+      <File id="9A1A77FE-F01B-495E-87B7-4B16E4F8C908/d:PInvoke/d:CvType/f:MCvFont.cs" caret="236" fromTop="9" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Circle.cs" caret="741" fromTop="17" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Text.cs" caret="3082" fromTop="13" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Sources/f:Desktop.cs" caret="0" fromTop="0" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Extensions/d:Converters/f:GrayScale.cs" caret="265" fromTop="9" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Triangle.cs" caret="3065" fromTop="40" />
+      <File id="9A1A77FE-F01B-495E-87B7-4B16E4F8C908/d:PInvoke/f:CvInvokeCore.cs" caret="5443" fromTop="15" />
+      <File id="7C2C5325-8235-4A24-9C67-6BD79A4679E2/f:Toolbox.cs" caret="3471" fromTop="0" />
+      <File id="9A1A77FE-F01B-495E-87B7-4B16E4F8C908/d:Features2D/f:LDetector.cs" caret="1948" fromTop="20" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Eigen.cs" caret="2229" fromTop="1" />
+      <File id="9A1A77FE-F01B-495E-87B7-4B16E4F8C908/d:Features2D/f:Features2DTracker.cs" caret="1604" fromTop="25" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:IDetector.cs" caret="982" fromTop="20" />
+      <File id="9A1A77FE-F01B-495E-87B7-4B16E4F8C908/d:Features2D/f:SURFDetector.cs" caret="4425" fromTop="15" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:TwoDimensionalTracker.cs" caret="422" fromTop="14" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:DetectorFactory.cs" caret="707" fromTop="17" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/f:SandBox.cs" caret="1105" fromTop="19" />
+      <File id="9A1A77FE-F01B-495E-87B7-4B16E4F8C908/f:Image.cs" caret="3482" fromTop="15" />
+      <File id="90E78BBF-C7FE-4D8E-ADE1-75448E866FDB/f:ImageBox.cs" caret="10554" fromTop="28" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/f:Form1.cs" caret="412" fromTop="8" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Sources/f:SourceFactory.cs" caret="1959" fromTop="58" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Sources/f:Image.cs" caret="364" fromTop="14" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Sources/f:ISource.cs" caret="0" fromTop="0" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Sources/f:Camera.cs" caret="6355" fromTop="32" />
+      <File id="9A1A77FE-F01B-495E-87B7-4B16E4F8C908/d:Features2D/f:SURFTracker.cs" caret="16703" fromTop="13" />
+      <File id="9A1A77FE-F01B-495E-87B7-4B16E4F8C908/d:Util/f:CvToolbox.cs" caret="4599" fromTop="15" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Surf.cs" caret="1157" fromTop="23" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Sources/f:SourceFactory.cs" caret="1959" fromTop="19" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Sources/f:SourceFactory.cs" caret="2408" fromTop="19" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/f:Form1.cs" caret="1165" fromTop="8" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/f:Form1.cs" caret="1149" fromTop="27" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/f:Form1.cs" caret="412" fromTop="9" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/f:Form1.cs" caret="412" fromTop="8" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Surf.cs" caret="844" fromTop="16" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Surf.cs" caret="844" fromTop="25" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Surf.cs" caret="844" fromTop="25" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Surf.cs" caret="844" fromTop="25" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Surf.cs" caret="844" fromTop="21" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Surf.cs" caret="844" fromTop="6" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Surf.cs" caret="844" fromTop="22" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Surf.cs" caret="845" fromTop="8" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Surf.cs" caret="844" fromTop="33" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Surf.cs" caret="844" fromTop="29" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Surf.cs" caret="844" fromTop="19" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Surf.cs" caret="844" fromTop="19" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Surf.cs" caret="2391" fromTop="36" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Surf.cs" caret="682" fromTop="11" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Surf.cs" caret="682" fromTop="14" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Surf.cs" caret="2946" fromTop="40" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Surf.cs" caret="2113" fromTop="15" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Surf.cs" caret="1241" fromTop="10" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Surf.cs" caret="682" fromTop="20" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Surf.cs" caret="3196" fromTop="30" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Surf.cs" caret="884" fromTop="23" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Surf.cs" caret="591" fromTop="16" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Surf.cs" caret="1039" fromTop="25" />
+      <File id="7A0A8C96-6E1C-4DBF-AC2C-C78A7A74AD6E/d:Detectors/f:Surf.cs" caret="559" fromTop="12" />
+    </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
     <NAntPath value="" />
@@ -23,40 +86,125 @@
   <CompletionStatisticsManager>
     <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
       <Item value="Where`1" priority="0" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="Add`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Default">
       <Item value="f" priority="0" />
-      <Item value="true" priority="0" />
+      <Item value="true" priority="1" />
       <Item value="GetFilesFromDirectory`0" priority="0" />
       <Item value="int" priority="1" />
       <Item value="result2" priority="0" />
-      <Item value="else" priority="0" />
-      <Item value="_textBox" priority="0" />
+      <Item value="else" priority="2" />
+      <Item value="_textBox" priority="1" />
       <Item value="parameters" priority="0" />
       <Item value="directory" priority="2" />
       <Item value="cannyDirectory" priority="1" />
-      <Item value="IDetector`0" priority="0" />
-      <Item value="var" priority="1" />
-      <Item value="rawFrame" priority="1" />
-      <Item value="return" priority="1" />
-      <Item value="new" priority="3" />
-      <Item value="DetectorResult" priority="0" />
-      <Item value="RawImage" priority="0" />
+      <Item value="IDetector`0" priority="3" />
+      <Item value="var" priority="3" />
+      <Item value="rawFrame" priority="13" />
+      <Item value="return" priority="12" />
+      <Item value="new" priority="31" />
+      <Item value="DetectorResult" priority="6" />
+      <Item value="RawImage" priority="2" />
       <Item value="GrayImage" priority="0" />
-      <Item value="grayFrame" priority="1" />
-      <Item value="ProcessedImage" priority="0" />
+      <Item value="grayFrame" priority="2" />
+      <Item value="ProcessedImage" priority="7" />
       <Item value="processedFrame" priority="0" />
       <Item value="editedImage" priority="5" />
       <Item value="circleDetector" priority="0" />
       <Item value="FindCircle`0" priority="1" />
       <Item value="IImage`0" priority="2" />
-      <Item value="Image" priority="0" />
-      <Item value="Bgr`0" priority="0" />
+      <Item value="Image" priority="3" />
+      <Item value="Bgr`0" priority="5" />
       <Item value="Circle`0" priority="0" />
-      <Item value="detector" priority="0" />
-      <Item value="image" priority="1" />
+      <Item value="detector" priority="5" />
+      <Item value="image" priority="3" />
       <Item value="FLIP" priority="0" />
       <Item value="FLIP`0" priority="0" />
+      <Item value="Features2DTracker`0" priority="0" />
+      <Item value="List" priority="1" />
+      <Item value="public" priority="9" />
+      <Item value="interests" priority="0" />
+      <Item value="_interests" priority="0" />
+      <Item value="Collection" priority="0" />
+      <Item value="String`0" priority="2" />
+      <Item value="_imageBox" priority="0" />
+      <Item value="private" priority="3" />
+      <Item value="readonly" priority="0" />
+      <Item value="sender" priority="1" />
+      <Item value="e" priority="1" />
+      <Item value="processor" priority="0" />
+      <Item value="_processor" priority="0" />
+      <Item value="using" priority="1" />
+      <Item value="PredatorCV" priority="0" />
+      <Item value="Extensions" priority="1" />
+      <Item value="default" priority="0" />
+      <Item value="DetectorFactory`0" priority="0" />
+      <Item value="_detector" priority="2" />
+      <Item value="_capture" priority="0" />
+      <Item value="string" priority="1" />
+      <Item value="case" priority="1" />
+      <Item value="ResultOf&lt;IDetector&gt;" priority="1" />
+      <Item value="if" priority="5" />
+      <Item value="Capture" priority="0" />
+      <Item value="source" priority="0" />
+      <Item value="void" priority="1" />
+      <Item value="_sandbox" priority="0" />
+      <Item value="HaarCascade" priority="1" />
+      <Item value="Face`0" priority="0" />
+      <Item value="MCvFont" priority="0" />
+      <Item value="FONT`0" priority="0" />
+      <Item value="PointCollection`0" priority="0" />
+      <Item value="Surf`0" priority="1" />
+      <Item value="List&lt;Interest&gt;" priority="0" />
+      <Item value="Interest`0" priority="0" />
+      <Item value="InitOcr`0" priority="0" />
+      <Item value="bmp" priority="0" />
+      <Item value="Rectangle" priority="0" />
+      <Item value="Label`0" priority="1" />
+      <Item value="Label" priority="0" />
+      <Item value="words" priority="1" />
+      <Item value="textBox" priority="1" />
+      <Item value="imageObject" priority="0" />
+      <Item value="textBox1" priority="0" />
+      <Item value="Dispose`0" priority="0" />
+      <Item value="this" priority="1" />
+      <Item value="for" priority="0" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="w" priority="0" />
+      <Item value="static" priority="1" />
+      <Item value="ResultOf" priority="0" />
+      <Item value="Image&lt;Bgr,byte&gt;" priority="0" />
+      <Item value="Bgr" priority="0" />
+      <Item value="Color" priority="0" />
+      <Item value="processedImage" priority="1" />
+      <Item value="pts" priority="0" />
+      <Item value="Gray`0" priority="2" />
+      <Item value="Features2DTracker" priority="1" />
+      <Item value="modelImage" priority="3" />
+      <Item value="modelFeatures" priority="2" />
+      <Item value="ref" priority="0" />
+      <Item value="surfParam" priority="3" />
+      <Item value="ImageFeature" priority="0" />
+      <Item value="tracker" priority="3" />
+      <Item value="ImageFeature`0" priority="0" />
+      <Item value="matchedFeatures" priority="0" />
+      <Item value="homographyMatrix" priority="0" />
+      <Item value="EnvironmentVariableTarget`0" priority="1" />
+      <Item value="_image" priority="2" />
+      <Item value="fps" priority="1" />
+      <Item value="TickStyle`0" priority="0" />
+      <Item value="while" priority="0" />
+      <Item value="Application`0" priority="0" />
+      <Item value="capturedImageBox" priority="0" />
+      <Item value="byte" priority="1" />
+      <Item value="null" priority="0" />
+      <Item value="_previousFrame" priority="1" />
+      <Item value="_previousRawFrame" priority="1" />
+      <Item value="_previousProcessedFrame" priority="0" />
+      <Item value="modelImages" priority="0" />
+      <Item value="foreach" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.String">
       <Item value="Contains`0" priority="0" />
@@ -71,6 +219,13 @@
       <Item value="Copy`0" priority="0" />
       <Item value="ToGray`0" priority="1" />
       <Item value="_Flip`0" priority="0" />
+      <Item value="Convert`4" priority="3" />
+      <Item value="Resize`0" priority="0" />
+      <Item value="Draw`0" priority="0" />
+      <Item value="ConcateHorizontal`0" priority="0" />
+      <Item value="ExtractSURF`0" priority="1" />
+      <Item value="GoodFeaturesToTrack`0" priority="0" />
+      <Item value="Equals`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:_ExperimentCV.Detectors.DetectorResult">
       <Item value="Label" priority="0" />
@@ -79,6 +234,7 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
       <Item value="TabIndex" priority="0" />
+      <Item value="Text" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:_ExperimentCV.Detectors.Circle">
       <Item value="Process`0" priority="1" />
@@ -91,6 +247,72 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Drawing.Color">
       <Item value="DarkRed" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PredatorCV.Collection.Interest">
+      <Item value="Convert`4" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Enum">
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PredatorCV.Sandbox">
+      <Item value="AssignCaptureSource`0" priority="0" />
+      <Item value="AssignDetector`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox">
+      <Item value="SelectedItem" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="1" />
+      <Item value="As`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PredatorCV.Detectors.DetectorFactory">
+      <Item value="GetDetector`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PredatorCV.Detectors.IDetector">
+      <Item value="Process`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PredatorCV.Sources.IVideo">
+      <Item value="QueryFrame`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PredatorCV.Detectors.DetectorResult">
+      <Item value="ProcessedImage" priority="0" />
+      <Item value="Label" priority="1" />
+      <Item value="Dispose`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PredatorCV.Collection.ResultOf`1">
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Emgu.CV.CvEnum.INTER">
+      <Item value="CV_INTER_CUBIC" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Emgu.CV.CvEnum.FONT">
+      <Item value="CV_FONT_HERSHEY_SIMPLEX" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Point">
+      <Item value="Round`0" priority="0" />
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:tessnet2.Word">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Emgu.CV.Structure.Bgr">
+      <Item value="Red" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Emgu.CV.Features2D.SurfDetector">
+      <Item value="DetectFeatures`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Emgu.CV.Features2D.Features2DTracker">
+      <Item value="Detect`0" priority="3" />
+      <Item value="CamShiftTrack`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Emgu.CV.Features2D.Features2DTracker">
+      <Item value="GetHomographyMatrixFromMatchedFeatures`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.EventHandler">
+      <Item value="BeginInvoke`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Application">
+      <Item value="Idle" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

@@ -75,7 +75,7 @@ namespace PredatorCV.Sources
     /// <remarks>
     /// Created by Agha Ali Raza. 
     /// </remarks>
-    public class Desktop : IVideo
+    public class Desktop : ISource
     {
         #region Public Class Functions
         public Bitmap GetDesktopImage(int destX , int destY, int cx, int cy)

@@ -5,21 +5,24 @@ using System.Text;
 using System.Windows.Forms;
 using Emgu.CV;
 using PredatorCV.Collection;
+using PredatorCV.Extensions;
 
 namespace PredatorCV.Sources
 {
-    public class VideoFactory
+    public class SourceFactory
     {
-        public static ResultOf<IVideo> GetCaptureDevice(VideoSource source, EventHandler processor)
+        public static ResultOf<ISource> GetCaptureDevice(String source, EventHandler processor)
         {
-            switch (source)
+            switch (Enum.Parse(typeof(VideoSource),source).As<VideoSource>())
             {
                 case VideoSource.Camera:
-                    return new ResultOf<IVideo>(GetCamera(processor).Value);
+                    return new ResultOf<ISource>(GetCamera(processor).Value);
                 case VideoSource.Desktop:
-                    return  new ResultOf<IVideo>(GetDesktop(processor).Value);
+                    return  new ResultOf<ISource>(GetDesktop(processor).Value);
+                case VideoSource.Image:
+                    return new ResultOf<ISource>(GetImage(processor).Value);
             }
-            return new ResultOf<IVideo>("Error");
+            return new ResultOf<ISource>("Error");
         }
         public static ResultOf<Camera> GetCamera(EventHandler processor)
         {
@@ -51,13 +54,30 @@ namespace PredatorCV.Sources
             }
             return result;
         }
+        public static ResultOf<Image> GetImage(EventHandler processor)
+        {
+            var result = new ResultOf<Image>();
+            try
+            {
+                result.Value = new Image();
+                Application.Idle += processor;
+
+            }
+            catch (NullReferenceException e)
+            {
+                result.AddMessage(e.Message);
+            }
+            return result;
+        }
 
         public enum VideoSource
         {
             Camera = 0,
             Desktop,
-            Iphone,
+            Image,
+            iOS,
             Android
         }
+
     }
 }

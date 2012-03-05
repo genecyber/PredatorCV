@@ -20,3 +20,4 @@ C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\bin\Emgu.CV.
 C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\bin\Emgu.CV.pdb
 C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV\obj\Debug\Decl\Emgu.CV.dll
 C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Emgu.CV\obj\Debug\Decl\Emgu.CV.pdb
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\bin\Emgu.CV.XML

@@ -16,7 +16,7 @@ namespace PredatorCV.Sources
         UnmanagedObject,
         IDuplexCapture,
         ICapture,
-        IVideo
+        ISource
     {
         /// <summary>
         /// the type of flipping

@@ -14,7 +14,7 @@ namespace Emgu.CV.Features2D
    /// <summary>
    /// This class use SURF and CamShift to track object
    /// </summary>
-   [Obsolete("Use the more generic Feature2DTracker instead, will be removed in the next version")]
+   [Obsolete("Use the more generic Features2DTracker instead, will be removed in the next version")]
    public class SURFTracker : DisposableObject
    {
       private SURFMatcher _matcher;

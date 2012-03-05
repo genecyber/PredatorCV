@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using Emgu.CV;
+using PredatorCV;
 
 namespace _ExperimentCV
 {

@@ -7,9 +7,9 @@ using Emgu.CV.Structure;
 
 namespace PredatorCV.Detectors
 {
-    public static class Face
+    public class Face : IDetector
     {
-        public static void DetectAndDrawFaces(Image<Bgr, byte> image,HaarCascade face, HaarCascade eye, List<TrackBar> trackers)
+        public static Image<Bgr, byte> DetectAndDrawFaces(Image<Bgr, byte> image, HaarCascade face, HaarCascade eye)
         {
             Image<Gray, Byte> gray = image.Convert<Gray, Byte>(); //Convert it to Grayscale
 
@@ -21,7 +21,7 @@ namespace PredatorCV.Detectors
             MCvAvgComp[][] facesDetected = gray.DetectHaarCascade(
                face,
                1.1,
-               trackers[0].Value,
+               10,
                Emgu.CV.CvEnum.HAAR_DETECTION_TYPE.DO_CANNY_PRUNING,
                new Size(20, 20));
 
@@ -34,6 +34,7 @@ namespace PredatorCV.Detectors
                 if (eye != null)
                     DetectAndDrawEyes(image, gray, f, eye);
             }
+            return image;
         }
 
         private static void DetectAndDrawEyes(Image<Bgr, byte> image, Image<Gray, byte> gray, MCvAvgComp f, HaarCascade eye)
@@ -53,6 +54,12 @@ namespace PredatorCV.Detectors
                 eyeRect.Offset(f.rect.X, f.rect.Y);
                 image.Draw(eyeRect, new Bgr(Color.Red), 2);
             }
+            
+        }
+
+        public DetectorResult Process(Image<Bgr, byte> rawFrame, Image<Gray, byte> grayFrame)
+        {
+            return new DetectorResult() { ProcessedImage = DetectAndDrawFaces(rawFrame, new HaarCascade("Detectors\\haar\\haarcascade_frontalface_alt_tree.xml"), new HaarCascade("Detectors\\haar\\haarcascade_eye.xml")) };
         }
     }
 }

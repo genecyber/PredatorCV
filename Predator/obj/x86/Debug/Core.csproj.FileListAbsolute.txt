@@ -26,7 +26,6 @@ C:\Emgu\emgucv-windows-x86 2.2.1.1150\Solution\VS2010\_ExperimentCV\obj\x86\Debu
 C:\Emgu\emgucv-windows-x86 2.2.1.1150\Solution\VS2010\_ExperimentCV\obj\x86\Debug\Decl\_ExperimentCV.exe
 C:\Emgu\emgucv-windows-x86 2.2.1.1150\Solution\VS2010\_ExperimentCV\obj\x86\Debug\Decl\_ExperimentCV.pdb
 C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\obj\x86\Debug\_ExperimentCV.Form1.resources
 C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\obj\x86\Debug\ResGen.read.1.tlog
 C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\obj\x86\Debug\ResGen.write.1.tlog
 C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\bin\Debug\Emgu.CV.License.txt
@@ -53,3 +52,23 @@ C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\obj
 C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\obj\x86\Debug\Decl\PredatorCV.exe
 C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\obj\x86\Debug\Decl\PredatorCV.pdb
 C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\bin\Debug\ZedGraph.dll
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\obj\x86\Debug\PredatorCV.Form1.resources
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\bin\Debug\Detectors\haar\haarcascade_eye.xml
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\bin\Debug\Detectors\haar\haarcascade_eye_tree_eyeglasses.xml
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\bin\Debug\Detectors\haar\haarcascade_frontalface_alt.xml
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\bin\Debug\Detectors\haar\haarcascade_frontalface_alt2.xml
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\bin\Debug\Detectors\haar\haarcascade_frontalface_alt_tree.xml
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\bin\Debug\Detectors\haar\haarcascade_frontalface_default.xml
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\bin\Debug\Detectors\haar\haarcascade_fullbody.xml
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\bin\Debug\Detectors\haar\haarcascade_lefteye_2splits.xml
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\bin\Debug\Detectors\haar\haarcascade_lowerbody.xml
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\bin\Debug\Detectors\haar\haarcascade_mcs_eyepair_big.xml
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\bin\Debug\Detectors\haar\haarcascade_mcs_eyepair_small.xml
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\bin\Debug\Detectors\haar\haarcascade_mcs_lefteye.xml
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\bin\Debug\Detectors\haar\haarcascade_mcs_mouth.xml
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\bin\Debug\Detectors\haar\haarcascade_mcs_nose.xml
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\bin\Debug\Detectors\haar\haarcascade_mcs_righteye.xml
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\bin\Debug\Detectors\haar\haarcascade_mcs_upperbody.xml
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\bin\Debug\Detectors\haar\haarcascade_profileface.xml
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\bin\Debug\Detectors\haar\haarcascade_righteye_2splits.xml
+C:\Users\Genecyber\Documents\Visual Studio 2010\Projects\PredatorCV\Predator\bin\Debug\Detectors\haar\haarcascade_upperbody.xml
